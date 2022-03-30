@@ -6,12 +6,13 @@
     --peach-puff: #ffddbd;
 }
 
+body {
+    margin: 0px;
+}
+
 header {
     background: var(--peach-puff);
     text-align: center;
-    position: fixed;
-    z-index: 999;
-    width: 100%;
     display: grid;
     grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
 }
@@ -40,6 +41,10 @@ nav a {
     text-decoration: none;
     font-size: 1.2rem;
     color: var(--black-bean);
+}
+
+nav ul {
+    list-style: none;
 }
 
 .logo {
