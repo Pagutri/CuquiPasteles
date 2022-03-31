@@ -15,19 +15,17 @@ header {
     text-align: center;
     display: grid;
     grid-template-columns: min-content auto;
+    align-items: center;
 }
 
-nav ul {
-    list-style: none;
+nav {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
   
 nav a {
     text-decoration: none;
     color: var(--black-bean);
-}
-
-nav ul {
-    list-style: none;
 }
 
 .logo {
