@@ -13,24 +13,27 @@ body {
 header {
     background: var(--peach-puff);
     text-align: center;
-    display: grid;
-    grid-template-columns: min-content auto;
-    align-items: center;
     margin: 0px;
+    width: 100%;
 }
 
 nav {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 45px;
 }
   
 nav a {
     text-decoration: none;
     color: var(--black-bean);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
 }
 
 .logo {
     width: 210px;
+    float: inline-start;
+    border-radius: 50%;
 }
 
 .banner {
