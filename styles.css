@@ -8,6 +8,7 @@
 
 body {
     margin: 0px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 header {
@@ -25,9 +26,8 @@ nav {
   
 nav a {
     text-decoration: none;
-    color: var(--black-bean);
-    font-family: 'Josefin Sans', sans-serif;
     font-size: 22px;
+    color: var(--black-bean);
 }
 
 .logo {
@@ -56,6 +56,38 @@ h2 {
     background: var(--peach-puff);
     padding: 50px;
     border-radius: 50% 10%;
-    font-family: 'Josefin Sans', sans-serif;
     font-size: 60px;
+}
+
+h3 {
+    font-size: 45px;
+    color: var(--black-bean);
+}
+
+.lista-productos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.lista-productos img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.lista-productos div {
+    background: var(--shimmering-blush);
+    width: 200px;
+    color: #000;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 22px;
+}
+
+ul {
+    list-style: none;
+}
+
+dd {
+    display: none;
 }
